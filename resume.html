@@ -11,6 +11,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet" />
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.css" rel="stylesheet" />
         <link href="css/styles.css" rel="stylesheet" />
     </head>
     <body class="d-flex flex-column h-100 bg-light">
@@ -48,7 +49,10 @@
                                 </a>
                             </div>
                             <!--CARD-->
-                            <div class="card shadow border-0 rounded-4 mb-5 experience-card" style="background-image: url('assets/Rhb.jpg');">
+                            <div class="card shadow border-0 rounded-4 mb-5 experience-card" 
+                                 style="background-image: url('assets/Rhb.jpg'); cursor: pointer;" 
+                                 data-bs-toggle="modal" 
+                                 data-bs-target="#experienceModal1">
                                 <div class="card-body p-5">
                                     <div class="row align-items-center gx-5">
                                         <div class="col text-center text-lg-start mb-4 mb-lg-0">
@@ -59,7 +63,48 @@
                                                 <div class="small text-muted">Jalan Tun HS Lee, Kuala Lumpur</div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-8"><div class="text-white">Handled inbound customer enquiries related to loans, providing assistance on account information, payments, and loan-related matters while maintaining accurate records and good customer service.</div></div>
+                                        <div class="col-lg-8">
+                                            <div class="text-white">Handled inbound customer enquiries related to loans, providing assistance on account information, payments, and loan-related matters while maintaining accurate records and good customer service.</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>                            
+                            <!-- MODAL RHB -->
+                            <div class="modal fade" id="experienceModal1" tabindex="-1" aria-labelledby="experienceModalLabel1" aria-hidden="true">
+                                <div class="modal-dialog modal-lg">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="experienceModalLabel1">Inbound Officer - RHB Bank Berhad</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img src="assets/Rhb.jpg" class="img-fluid mb-4 rounded" alt="RHB Bank">
+                                            <div class="mb-3">
+                                                <h6 class="text-primary fw-bolder">Duration:</h6>
+                                                <p>JAN 2026 - MAR 2026</p>
+                                            </div>
+                                            <div class="mb-3">
+                                                <h6 class="text-primary fw-bolder">Position:</h6>
+                                                <p>Inbound Officer</p>
+                                            </div>
+                                            <div class="mb-3">
+                                                <h6 class="text-primary fw-bolder">Company:</h6>
+                                                <p>RHB Bank Berhad</p>
+                                            </div>
+                                            <div class="mb-3">
+                                                <h6 class="text-primary fw-bolder">Location:</h6>
+                                                <p>Jalan Tun HS Lee, Kuala Lumpur</p>
+                                            </div>
+                                            <div class="mb-3">
+                                                <h6 class="text-primary fw-bolder">Responsibilities:</h6>
+                                                <p>• Handled over 80 inbound calls daily to maintain professional service for loan-related inquiries and repayments.</p>
+                                                <p>• Resolved customer inquiries on first contact, covering balances, schedules, arrears, and restructuring.</p>
+                                                <p>• Logged and updated customer interactions in the CRM system to ensure accurate tracking and compliance.</p>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">CLOSE</button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
