@@ -11584,6 +11584,7 @@ html {
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
+  transform: translateY(-4%);
 }
 .profile .dots-1 {
   position: absolute;
