@@ -11584,7 +11584,7 @@ html {
   height: 100%;
   width: auto;
   max-height: none;
-  transform: translateX(-50%);
+  transform: translate(-50%, -2cm);
   object-fit: contain;
 }
 .profile .dots-1 {
