@@ -11570,15 +11570,15 @@ html {
 
 .profile {
   position: relative;
-  height: 75vw;
-  width: 75vw;
-  border-radius: 5vw;
+  height: 60vw;
+  width: 60vw;
+  border-radius: 50%;
   margin-top: 5vw;
   max-height: 40rem;
   max-width: 40rem;
 }
 .profile .profile-img {
-  height: 80vw;
+  height: 65vw;
   max-height: 45rem;
   position: absolute;
   bottom: 0;
@@ -11674,11 +11674,11 @@ html {
 }
 @media (min-width: 992px) {
   .profile {
-    height: 40vw;
-    width: 40vw;
+    height: 35vw;
+    width: 35vw;
   }
   .profile .profile-img {
-    height: 45vw;
+    height: 40vw;
   }
   .profile .dots-1 {
     width: 1.5vw;
